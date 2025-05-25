@@ -34,3 +34,39 @@ console.log(multiplicá(4, 5));
 
 const restá = (a,b) => a - b;
 console.log(restá(10, 5));
+
+
+//***Practice Exercises to Reinforce Concepts***
+
+//Exercise 01: Basic Function and Calling
+function decíMiNombre(nombre) {
+  console.log('Roberto')
+}
+decíMiNombre();
+decíMiNombre();
+decíMiNombre();
+
+//Exercise 02: Function with Parameters
+function bienvenido(persona1, persona2) {
+  console.log('¡Bienvenido ' + persona1 + ' y ' + persona2 + '!')
+}
+bienvenido('Benito', 'Cristofer');
+
+
+//Exercise 03: Function with Return
+function cuadrado(número) {
+  return número * número;
+}
+let respuesta = cuadrado(10);
+console.log(respuesta);
+
+//Exercise 04: Arrow Function Practice
+const square = (num) => num * num;
+console.log(square(3), square(5));
+
+//Exercuse 05: Real World Scenario
+function calculáElTotal(precio, cantidad) {
+  return precio * cantidad;
+}
+let precioTotal = calculáElTotal(20, 3)
+console.log(precioTotal);
