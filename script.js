@@ -72,7 +72,8 @@ let precioTotal = calculáElTotal(20, 3)
 console.log(precioTotal);
 
 
-//The following day exercise
+//***Yesterday's Lesson Recap***
+
 //1. Basic Function Calling
 
 function decíAdiós(suNombre) {
