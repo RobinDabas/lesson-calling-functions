@@ -118,3 +118,14 @@ function listaDeDestinos(arr) {
 }
 let destinos = ['¡Ciudades que quiero visitar!','Bangkok, Tailandía', 'Ho Chi Minh, Vietnam','Kuala Lumpur, Malasia', 'Vientiene, Laos','Jakarta, Indonesia','Medellín, Colombia', 'San Juan, Puerto Rico'];
 listaDeDestinos(destinos);
+
+
+
+
+function ciudadesTailandía(arr) {
+  for (let t = 0; t < arr.length; ++t) {
+    console.log(arr[t])
+  }
+}
+let ciudades = ['¡Ciudades que quiero visitar en Tailandia!','Bangkok', 'Phuket', 'Pattaya', 'Chiang Mai', 'Lampang', 'Chiang Rai', 'Udon Thani', 'Pattani', 'Hat Yai'];
+ciudadesTailandía(ciudades);
