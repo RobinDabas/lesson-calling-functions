@@ -119,8 +119,7 @@ function listaDeDestinos(arr) {
 let destinos = ['¡Ciudades que quiero visitar!','Bangkok, Tailandía', 'Ho Chi Minh, Vietnam','Kuala Lumpur, Malasia', 'Vientiene, Laos','Jakarta, Indonesia','Medellín, Colombia', 'San Juan, Puerto Rico'];
 listaDeDestinos(destinos);
 
-
-
+//Reinforced concept of For Loops and Arrays
 
 function ciudadesTailandía(arr) {
   for (let t = 0; t < arr.length; ++t) {
@@ -129,3 +128,6 @@ function ciudadesTailandía(arr) {
 }
 let ciudades = ['¡Ciudades que quiero visitar en Tailandia!','Bangkok', 'Phuket', 'Pattaya', 'Chiang Mai', 'Lampang', 'Chiang Rai', 'Udon Thani', 'Pattani', 'Hat Yai'];
 ciudadesTailandía(ciudades);
+
+//I just reviewed how each part of this exercise works and I understand it so much better
+
