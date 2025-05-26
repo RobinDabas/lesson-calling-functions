@@ -105,3 +105,16 @@ let facturaInicial = 80;
 let facturaDuplicado = facturaDelRestaurante(facturaInicial);
 
 console.log ('Pagué ' + '$' + facturaDuplicado + '.00 CAD' + ' por nuestra comida en el restaurante, Libya, A Taste of Arabia. Nos encantó el cordero Kebsa y el plato beduino Al-Mathrooda.');
+
+
+//Building and calling Function with Arrays
+
+//Print Array Elements:
+
+function listaDeDestinos(arr) {
+  for (let i = 0; i < arr.length; ++i) {
+    console.log(arr[i]);
+  }
+}
+let destinos = ['¡Ciudades que quiero visitar!','Bangkok, Tailandía', 'Ho Chi Minh, Vietnam','Kuala Lumpur, Malasia', 'Vientiene, Laos','Jakarta, Indonesia','Medellín, Colombia', 'San Juan, Puerto Rico'];
+listaDeDestinos(destinos);
