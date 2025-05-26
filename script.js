@@ -70,3 +70,37 @@ function calculáElTotal(precio, cantidad) {
 }
 let precioTotal = calculáElTotal(20, 3)
 console.log(precioTotal);
+
+
+//The following day exercise
+//1. Basic Function Calling
+
+function decíAdiós(suNombre) {
+  console.log('Adiós ' + suNombre + '.' + ' Nosotros esperamos verte pronto.')
+}
+
+decíAdiós('Pablo');
+
+//2. Function with Return
+
+function plan(presupuesto) {
+  return presupuesto + presupuesto;
+}
+ let presupuestoTailandía = plan(1250);
+ console.log('Vos tenés un presupuesto para un viaje a Tailandia de ' + '$' + presupuestoTailandía + ' CAD.');
+
+ //3. Arrow Function
+
+ const suPresupuesto = (dólares) => dólares * 2;
+ let cantidadInicial = 1250;
+ let presupuestoDuplicado = suPresupuesto(cantidadInicial);
+ console.log('Mi presupuesto para mi viaje de 2 meses a Tailandia es ' + '$' + presupuestoDuplicado)
+
+
+//Bonus practice to renforce the Arrow Function concept
+
+const facturaDelRestaurante = (recibo) => recibo * 2;
+let facturaInicial = 80;
+let facturaDuplicado = facturaDelRestaurante(facturaInicial);
+
+console.log ('Pagué ' + '$' + facturaDuplicado + '.00 CAD' + ' por nuestra comida en el restaurante, Libya, A Taste of Arabia. Nos encantó el cordero Kebsa y el plato beduino Al-Mathrooda.');
