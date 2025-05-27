@@ -131,3 +131,59 @@ ciudadesTailandía(ciudades);
 
 //I just reviewed how each part of this exercise works and I understand it so much better
 
+//27th of May - Array with numbered output
+
+function ciudadesDeMalasia(arr) {
+  for (let m = 0; m < arr.length; ++m) {
+    console.log(m + 1, arr[m]);
+  }
+}
+ciudadesDeMalasia(['Kuala lumpur', 'Malacca', 'Ipoh']);
+
+
+
+function paisesAsiaticos(arr) {
+  for (let p = 0; p < arr.length; ++p) {
+    console.log(p + 1, arr[p]);
+  }
+}
+paisesAsiaticos(['Thailand', 'Vietnam', 'Laos', 'Malaysia']);
+
+
+//Conditional Output
+
+function saludáDestinos(arr) {
+  for (s = 0; s < arr.length; ++s) {
+    if (arr[s] === 'Tailandia') {
+      console.log(s + 1, '¡Mi favorito!')
+    } else {
+      console.log(s + 1, '¡Quiubo, ' + arr[s] + '!')
+    }
+  }
+}
+saludáDestinos(['Tailandia', 'Colombia', 'Vietnam']);
+
+
+//Conditional Output
+
+function listaFrutas(arr) {
+  for (f = 0; f < arr.length; ++f) {
+    if (arr[f] === 'piña') {
+      console.log(f + 1, '¡Mi favorito!')
+    } else {
+      console.log(f + 1, arr[f])
+    }
+  }
+}
+listaFrutas(['piña', 'mango', 'naranja', 'guineo', 'sandía']);
+
+//Exercise: Practicing with functions
+
+function encontráLaLetra(palabra, emparejar) {
+  for (let l = 0; l < palabra.length; ++l) {
+    if (palabra[l] === emparejar) {
+      console.log(`Encontré ${emparejar} en la posicion ${l}`)
+    }
+  }
+}
+encontráLaLetra('paisa', 'a')
