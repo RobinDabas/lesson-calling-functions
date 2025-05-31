@@ -187,3 +187,13 @@ function encontráLaLetra(palabra, emparejar) {
   }
 }
 encontráLaLetra('paisa', 'a')
+
+
+function findLetter (word, match) {  
+  for (let d = 0; d < word.length; ++d) {
+    if (word[d] === match) {
+      console.log(`I found ${match} in the position ${d}`)
+    }
+   }
+ }
+findLetter ('colombian', 'o')
