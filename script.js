@@ -197,3 +197,23 @@ function findLetter (word, match) {
    }
  }
 findLetter ('colombian', 'o')
+
+
+
+
+
+
+
+
+
+
+function locateLetter(letter, find) {
+  for (let o = 0; o < letter.length; ++o) {
+    if (letter[o] === find) {
+      console.log(`I found ${find} in the position ${o}`)
+    }
+  }
+}
+locateLetter('Thailand', 'a')
+
+
